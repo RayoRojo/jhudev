@@ -13,16 +13,60 @@
     <![endif]-->
 
     <title>Boostrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">    <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <header>
+        
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <span class="navbar-brand">Food, LLC</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <!--active-->
+              <a class="nav-link" href="#">Chicken <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beef</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
 
-  <h1>Hello Coursera!</h1>
+  <div id="menu-title" class="text-center">Our Menu</div>
+  <div class="container">
+    <div class="row">
+      <section class="col-xs-12" id="food-type">
+        Chicken
+      <div class="menu-description text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin in consequat magna. Suspendisse consectetur neque purus, ultricies convallis 
+        dolor tincidunt nec. Ut at libero elementum, pretium elit eu, convallis sem. Proin efficitur, 
+        est nec blandit posuere, est metus sodales turpis, maximus consequat turpis eros a ex.
+        Cras iaculis porta orci sit amet lobortis. Duis vitae pharetra nibh, quis maximus velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut finibus posuere fermentum. Suspendisse lobortis luctus lacus eget rutrum. Duis at sapien nulla. Sed in orci vel tellus imperdiet rutrum vitae at turpis.
+        Sed ut orci orci. Nunc purus felis, vulputate in porttitor sed, pellentesque ut nulla. 
+        Donec ultrices eros placerat, lacinia massa in, dictum tortor. Nulla feugiat convallis sem, 
+        mollis venenatis libero bibendum malesuada. Pellentesque placerat velit metus, sed suscipit 
+        risus sollicitudin id. Vestibulum placerat blandit varius. Etiam vitae metus nibh.</section>
+      <!--div class="col-12">
+        Beef
+      </div>
+      <div class="col-12">
+        Sushi
+      </div>
+      </div-->
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
