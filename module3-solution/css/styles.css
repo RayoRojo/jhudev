@@ -37,28 +37,35 @@ body {
 /* END HEADER */
   
 .container {
-    /*border: 1px solid red;*/ 
+    /*border: 1px solid red;*/
     width: 100%; 
 }
 .row {
     margin: 10px auto; /*top-right-bottom-left*/
     padding: 5px 2px 5px 2px; /*top-right-bottom-left*/
     /*border: 1px solid blue;*/
-    background: lightgrey;
-    height: 1000px;
-
 }
-#menu-title {
-    padding: 10px;
+#chicken-title, #beef-title, #sushi-title {
+    /*width: 35%;*/
+    /*height: 35px;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
     font-size: 1.4em;
-}
-#food-type{
+    padding-top: 7px;
+    color: black;
     text-align: center;
 }
-#food-type div{
+#chicken div, #beef div, #sushi div {
     font-size: 0.75em;
 }
-/*.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-}*/
+#chicken-text, #beef-text, #sushi-text {
+    margin-top: 10px;
+    position: relative;
+    background-color: lightskyblue;
+    padding: 30px 2px 5px 2px; /*top-right-bottom-left*/
+    height: 600px;
+    overflow: auto;
+    
+}
